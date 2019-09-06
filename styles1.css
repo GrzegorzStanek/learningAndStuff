@@ -1,0 +1,102 @@
+﻿/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+/* my first project styles*/
+
+header{
+	text-align: center;
+	padding: 20px;
+}
+header ul{
+	list-style: none;
+	overflow: hidden;
+}
+header li{
+	text-align: center;
+	display: inline
+}
+section{
+	display: inline;
+	left: 100px;
+}
+figure{
+	width: 250px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
+figcaption{
+	text-align: center;
+	padding-left: 20px;
+}
+div img{
+	float: left;
+}
+nav{
+	width: 150px;
+	display: block;
+	float: left;
+}
+nav ul{
+	list-style: none;
+}
+form{
+	
+}
+
+.underLink{
+	text-align: center;
+	padding-left: 80px;
+}
+.centerBlock{
+
+}
+.textCenter{
+	padding: 10px 10px 10px 10px;
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+}
+.blockDivision{
+	margin-left: 50px;
+	clear: both;
+}
+.overallSize{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.aboutStyling{
+	width: 250px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	float: left;
+}
+
+
+
+
+
+
+
