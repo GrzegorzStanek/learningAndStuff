@@ -23,6 +23,10 @@ ul {
 	list-style: square;
 }
 /* my first project styles*/
+h1{
+	font-size: 36px;
+	font-family: Georgia, serif;
+}
 
 header{
 	text-align: center;
@@ -37,8 +41,10 @@ header li{
 	display: inline
 }
 section{
-	display: inline;
-	left: 100px;
+	display: inline-block;
+}
+section div img{
+  float:left
 }
 figure{
 	width: 250px;
@@ -57,42 +63,62 @@ nav{
 	width: 150px;
 	display: block;
 	float: left;
+	padding: 50px 100px 0 100px;
 }
 nav ul{
 	list-style: none;
 }
-form{
-	
-}
-
-.underLink{
+.underLink {
 	text-align: center;
 	padding-left: 80px;
 }
-.centerBlock{
-
+.pictureFormat {
+	padding: 0 0 0 10px;
 }
-.textCenter{
+.textCenter {
 	padding: 10px 10px 10px 10px;
-	width: 150px;
+	width: 170px;
 	text-align: center;
 	display: inline-block;
 }
-.blockDivision{
-	margin-left: 50px;
+.blockDivision {
 	clear: both;
 }
-.overallSize{
+.textSpace {
+  padding: 10px 30px 0 0;
+  display: inline-block;
+}
+.textCenter h3{
+  padding: 0 0 10px 0;
+}
+.overallSize {
 	max-width: 960px;
 	margin: 0 auto;
+	font-family: Times New Roman, serif;
+	font-size: 14px;
+	color: #a2a2a2;
 }
-.aboutStyling{
+.aboutStyling {
 	width: 250px;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
 	display: block;
 	float: left;
+	padding: 50px 0 0 0;
 }
+.topDiv h2{
+  font-size: 24px;
+  font-family: MS Serif, serif;
+  padding:
+}
+.topDiv p{
+  margin: 10px;
+  width: 800px;
+}
+.topDiv span{
+  font-size: 10px;
+  font-family: Georgia, serif;
+}
+
+
 
 
 
