@@ -49,18 +49,20 @@ header li{
 }
 section{
 	display: inline-block;
-  padding: 50px;
+  padding: 50px 0 50px 0;
 }
 section div img{
   float:left
 }
 figure{
 	width: 250px;
-	padding: 50px 50px 10px 10px;
 	display: inline-block;
 }
+figure img{
+  padding: 0 0 20px 0;
+}
 figcaption{
-  text-align: left;
+  line-height: 1.5em;
 }
 div img{
 	float: left;
@@ -75,39 +77,39 @@ nav ul{
 	list-style: none;
 }
 nav li{
-  padding: 10px;
+  padding: 15px;
 }
 section img{
   padding: 0 50px 0 0;
 }
 form{
-  margin: 50px;
+  margin: 50px 0 0 0;
+  position: relative;
+  left: 40px;
 }
 form p{
   padding: 5px;
 }
 .underLink {
 	text-align: left;
-  padding: 10px;
+  margin: 30px 0 0 0;
 }
 .pictureFormat {
 	padding: 0 0 0 10px;
 }
 .textCenter {
-	padding: 10px 10px 10px 10px;
-	width: 170px;
-	text-align: center;
 	display: inline-block;
 }
 .blockDivision {
 	clear: both;
 }
 .textSpace {
-  padding: 10px 30px 0 0;
   display: inline-block;
 }
-.textCenter h3 {
-  padding: 0 0 10px 0;
+.textCenter {
+  width: 180px;
+  display: inline-block;
+  padding: 0 50px 0 0;
 }
 .overallSize {
 	max-width: 960px;
@@ -125,22 +127,22 @@ form p{
 .topDiv h2 {
   font-size: 24px;
   font-family: MS Serif, serif;
-  padding:
 }
 .topDiv p {
   margin: 10px;
   width: 800px;
+  line-height: 1.5em;
 }
-.topDiv span{
+.topDiv span {
   font-size: 10px;
   font-family: Georgia, serif;
 }
 .textCenter p {
-  text-align: center;
   line-height: 1.5 em;
 }
 .aboutStyling p {
-  padding: 10px;
+  padding: 10px 0 0 0;
+  line-height: 1.5em;
 }
 .sendButton {
 	background-color:#039ae0;
@@ -152,13 +154,24 @@ form p{
 	font-style:italic;
 	padding:10px 50px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+	text-shadow:0px 1px 0px #2f6627; 
 }
-.boxShadowStyle {
-  -webkit-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.56);
-  -moz-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.56);
-   box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.56);
+.spaceBlock {
+  padding: 5px;
+ 
 }
+.buttonPosition a {
+  position: absolute;
+  right: -40px;
+  bottom: -80px;
+  margin: 0;
+
+}
+.spaceImages {
+  padding: 50px;
+  display: inline;
+}
+
 
 
 
