@@ -1,184 +1,230 @@
-﻿/* reset browser styles */
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1.2;
-}
-ol { 
-	padding-left: 1.4em;
-	list-style: decimal;
-}
-ul {
-	padding-left: 1.4em;
-	list-style: square;
-}
-/* my first project styles*/
-h1{
-	font-size: 36px;
-	font-family: Georgia, serif;
-  padding: 0 0 60px 0;
-}
-h4{ 
-  font-size: 24px;
-  color: rgb(255, 255, 255);
-  text-shadow: rgb(0, 0, 0) 1px 1px 3px;
+
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-header{
-	text-align: center;
-	padding: 20px;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
-header ul{
-	list-style: none;
-	overflow: hidden;
+
+body {
+    line-height: 1.2;
 }
-header li{
-	text-align: center;
-	display: inline;
-  padding: 0px 50px 0 0;
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
 }
-section{
-	display: inline-block;
-  padding: 50px 0 50px 0;
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
 }
-section div img{
-  float:left
+
+/* my first project styles*/
+h1 {
+    font-size: 36px;
+    font-family: Georgia, serif;
+    padding: 0 0 60px 0;
 }
-figure{
-	width: 250px;
-	display: inline-block;
+
+h4 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 1px 3px;
 }
-figure img{
-  padding: 0 0 20px 0;
+
+header {
+    text-align: center;
+    padding: 20px;
 }
-figcaption{
-  line-height: 1.5em;
+
+header ul {
+    list-style: none;
+    overflow: hidden;
 }
-div img{
-	float: left;
+
+header li {
+    text-align: center;
+    display: inline;
+    padding: 0px 50px 0 0;
 }
-nav{
-	width: 150px;
-	display: block;
-	float: left;
-	margin: 50px 100px 0 100px;
+
+section {
+    display: inline-block;
+    padding: 50px 0 50px 0;
 }
-nav ul{
-	list-style: none;
+
+section div img {
+    float: left
 }
-nav li{
-  padding: 15px;
+
+figure {
+    width: 250px;
+    display: inline-block;
 }
-section img{
-  padding: 0 50px 0 0;
+
+figure img {
+    padding: 0 0 20px 0;
 }
-form{
-  margin: 50px 0 0 0;
-  position: relative;
-  left: 40px;
+
+figcaption {
+    line-height: 1.5em;
 }
-form p{
-  padding: 5px;
+
+div img {
+    float: left;
 }
+
+nav {
+    width: 150px;
+    display: block;
+    float: left;
+    padding: 50px 100px 0 180px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    padding: 15px;
+}
+
+section img {
+    padding: 0 50px 0 0;
+}
+form {
+  padding: 50px 0 0 50px;
+}
+
 .underLink {
-	text-align: left;
-  margin: 30px 0 0 0;
+    text-align: left;
+    margin: 30px 0 0 0;
 }
+
 .pictureFormat {
-	padding: 0 0 0 10px;
+    padding: 0 0 0 10px;
 }
+
 .textCenter {
-	display: inline-block;
+    display: inline-block;
 }
+
 .blockDivision {
-	clear: both;
+    clear: both;
+    width: 960px;
+    padding-bottom: 100px;
 }
+
 .textSpace {
-  display: inline-block;
+    display: inline-block;
 }
+
 .textCenter {
-  width: 180px;
-  display: inline-block;
-  padding: 0 50px 0 0;
+    width: 180px;
+    display: inline-block;
+    padding: 0 50px 0 0;
+}
+.textCenterMiddle {
+    width: 180px;
+    display: inline-block;
+    padding: 0 50px 0 50px;
+}
+.textCenterNone {
+    width: 180px;
+    display: inline-block;
+    padding: 0;
 }
 .overallSize {
-	max-width: 960px;
-	margin: 0 auto;
-	font-family: Times New Roman, serif;
-	font-size: 14px;
-	color: #a2a2a2;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Times New Roman, serif;
+    font-size: 14px;
+    color: #a2a2a2;
 }
+
 .aboutStyling {
-	width: 250px;
-	display: block;
-	float: left;
-	padding: 50px 0 0 0;
+    width: 250px;
+    display: block;
+    float: left;
+    padding: 50px 0 0 0;
 }
+
 .topDiv h2 {
-  font-size: 24px;
-  font-family: MS Serif, serif;
+    font-size: 24px;
+    font-family: MS Serif, serif;
 }
+
 .topDiv p {
-  margin: 10px;
-  width: 800px;
-  line-height: 1.5em;
+    margin: 10px;
+    width: 800px;
+    line-height: 1.5em;
 }
+
 .topDiv span {
-  font-size: 10px;
-  font-family: Georgia, serif;
+    font-size: 10px;
+    font-family: Georgia, serif;
 }
-.textCenter p {
-  line-height: 1.5 em;
+
+.textSpace p {
+    line-height: 1.5em;
+    
 }
+
 .aboutStyling p {
-  padding: 10px 0 0 0;
-  line-height: 1.5em;
+    padding: 10px 0 0 0;
+    line-height: 1.5em;
 }
+
 .sendButton {
-	background-color:#039ae0;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Times New Roman;
-	font-size:17px;
-	font-style:italic;
-	padding:10px 50px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627; 
+    background-color: #039ae0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Times New Roman;
+    font-size: 17px;
+    font-style: italic;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
 }
+
 .spaceBlock {
-  padding: 5px;
- 
+    padding: 5px;
 }
+
 .buttonPosition a {
-  position: absolute;
-  right: -40px;
-  bottom: -80px;
-  margin: 0;
-
+    margin: 0;
 }
+.buttonPadding{
+    padding: 20px 0 0 20px;
+}
+
 .spaceImages {
-  padding: 50px;
-  display: inline;
+    padding: 50px;
+    display: inline;
 }
 
-
-
-
-
-
-
-
-
-
+.imagesArticles {
+    width: 960px;
+}
+.betweenFigure {
+  padding: 0 100px 0 100px;
+}
+.formStyling {
+  float: left;
+  width: 200px;
+  padding-left: 30px;
+}
+.footerFormat {
+  width: 960px;
+}
+.headerFormat {
+  width: 960px;
+}
 
