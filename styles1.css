@@ -33,6 +33,7 @@ h1 {
 }
 h3 {
     text-align: center;
+    font-weight: bold;
 }
 
 h4 {
@@ -119,6 +120,7 @@ footer {
 .underLink {
     text-align: left;
     margin: 30px 0 0 0;
+    text-decoration: none;
 }
 
 .pictureFormat {
@@ -175,8 +177,8 @@ footer {
 }
 
 .topDiv p {
-    margin: 10px;
-    width: 800px;
+    padding: 10px 0 0 0;
+    width: 850px;
     line-height: 1.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -197,12 +199,16 @@ footer {
 }
 
 .sendButton {
-    background-color: #039ae0;
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(top, rgba(73,155,234,1) 20%, rgba(73,155,234,1) 35%, rgba(47,135,231,1) 60%, rgba(32,124,229,1) 74%);
+    background: -webkit-linear-gradient(top, rgba(73,155,234,1) 20%, rgba(73,155,234,1) 35%, rgba(47,135,231,1) 60%, rgba(32,124,229,1) 74%);
+    background: -o-linear-gradient(top, rgba(73,155,234,1) 20%, rgba(73,155,234,1) 35%, rgba(47,135,231,1) 60%, rgba(32,124,229,1) 74%);
+    background: -ms-linear-gradient(top, rgba(73,155,234,1) 20%, rgba(73,155,234,1) 35%, rgba(47,135,231,1) 60%, rgba(32,124,229,1) 74%);
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
     font-family: Times New Roman;
-    font-size: 17px;
+    font-size: 18px;
     font-style: italic;
     padding: 10px 50px;
     text-decoration: none;
@@ -211,6 +217,10 @@ footer {
 
 .spaceBlock {
     padding: 5px;
+}
+
+.buttonPosition {
+    padding: 30px 0 0 150px;
 }
 
 .buttonPosition a {
@@ -235,6 +245,12 @@ footer {
   padding-top: 70px;
 }
 
+.formStyling textarea {
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+   -webkit-box-shadow: inset 0 0 10px #ececec;
+   box-shadow:         inset 0 0 10px #ececec;
+}
+
 .footerFormat {
   width: 960px;
   display: inline-block;
@@ -245,11 +261,33 @@ footer {
 }
 
 .bottomBox {
-	padding-top: 20px;
+    padding: 30px;
+    width: 960px;
 }
 
-.bottomBoxTwo{
-	float:right;
+.bottomBox span{
+    float: right;
 }
+
+.inputFormat {
+    position: relative;
+    left: 99px;
+    display: inline-block;
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+   -webkit-box-shadow: inset 0 0 10px #ececec;
+   box-shadow:         inset 0 0 10px #ececec;
+   height: 30px;
+}
+
+.formSpacing {
+    margin-top: 20px;
+}
+
+.centerAlign {
+    padding: 0 0 0 65px;
+    text-decoration: none;
+}
+
+
 
 
