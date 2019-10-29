@@ -142,12 +142,28 @@ h3 {
     text-align: center;
 }
 
-p {
-    text-align: center;
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #383838;
+    padding: 0 0 15px 0;
+}
+
+h2 {
+    color: #606060;
+    padding: 20px 0 15px 0;
 }
 
 nav {
     text-align: center;
+}
+
+hr {
+    background-color: #dedede;
+}
+
+.listOfNav {
+    padding: 0 0 20px 0;
 }
 
 .listOfNav ul,
@@ -155,8 +171,22 @@ li {
     display: inline-block;
 }
 
+.listOfNav li {
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+}
+
+.listOfNav li :hover {
+    background-color: #00a99d;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+
 .wholeBody {
     font-family: Raleway Regular, Arial, Helvetica, sans-serif;
+    color: #8a8a8a;
+    font-size: 14px;
 }
 
 .upperBody img {
@@ -165,41 +195,147 @@ li {
     max-width: 100%;
 }
 
+#colorTitleChange {
+    color: #00a99d;
+}
 
-/* second part styles */
+
+/* ------------------------second part styles----------------------- */
 
 .weOffer {
     text-align: center;
     padding: 20px;
 }
 
+.weOffer h2 {
+    font-weight: bold;
+}
+
 .offerFormat {
     display: inline-block;
-    width: 250px;
+    width: 300px;
+}
+
+.buttonFormat {
+    padding-top: 15px;
+}
+
+.buttonFormat p {
+    font-size: 12px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #8a8a8a;
+    border-style: solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.buttonFormat :hover {
+    background-color: #00a99d;
+    color: white;
+}
+
+#offerHeader {
+    text-align: center;
 }
 
 
 /*----------------------third part styles-------------------------*/
 
-.featuresFormat {
-    width: 250px;
+.featuresFormatMajor {
+    background-color: #383838;
+}
+
+.featuresFormatMajor p {
     text-align: center;
 }
 
-.featuresFormat ul li p {
-    display: block;
+.featuresMinor {
+    padding: 40px 0 0 0;
+}
+
+.featuresFormat {
+    width: 200px;
+    text-align: left;
+    float: left;
+}
+
+#featuresParagraph p {
+    line-height: 1.4em;
+    text-align: left;
+}
+
+#featuresParagraph a {
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.screenFeatures {
+    min-width: 450px;
+    float: left;
+}
+
+.featuresFormatMajor h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.featuresFormat a {
+    color: white;
+    font-weight: bold;
+}
+
+.screenHorizontal {
+    z-index: 1;
+    position: relative;
+}
+
+.screenVertical {
+    z-index: 2;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
 }
 
 
 /*---------------------fourth part styles-----------------------*/
 
-.stripesMajorFormat {
+.stripesWhole {
+    padding: 60px 0 60px 0;
     text-align: center;
+}
+
+.stripesImage {
+    padding: 10px;
+    float: left;
+}
+
+.stripesMajorFormat {
+    display: inline-block;
+}
+
+.stripesInner {
+    overflow: overlay;
 }
 
 .stripesMinorFormat {
     display: inline-block;
-    width: 250px;
+    width: 350px;
+    line-height: 1.5em;
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+
+.stripesMinorFormat a {
+    font-weight: bold;
+    color: #383838;
+}
+
+#caption {
+    color: #aaaaaa;
+    font-size: 12px;
 }
 
 
@@ -207,6 +343,7 @@ li {
 
 .bigWheelFormat {
     text-align: center;
+    padding: 30px 0 30px 0;
 }
 
 .wheelFormat {
@@ -214,8 +351,41 @@ li {
     width: 200px;
 }
 
+.wheelFormat p {
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.powerfulSkillsFormat {
+    background-color: #383838;
+}
+
+.powerfulSkillsFormat {
+    text-align: center;
+}
+
+.powerfulSkillsFormat h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 30px 0 20px 0;
+}
+
 
 /*--------------------sixth part styles-------------------------*/
+
+.sampleTitle h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #383838;
+    padding: 50px 0 20px 0;
+}
+
+.sampleTitle p {
+    padding: 0 0 40px 0;
+    text-align: center;
+}
 
 .bigSampleWorks {
     text-align: center;
@@ -226,9 +396,144 @@ li {
 }
 
 .buttonMajorWorks {
-    margin: auto;
-    display: block;
+    display: inline-block;
+    background-color: #00a99d;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 300px;
+    text-decoration: none;
+    margin: 30px 0 70px 0;
+}
+
+#buttonWorks {
+    text-align: center;
+}
+
+.buttonMajorWorks:hover {
+    background-color: #5cbf2a;
 }
 
 
 /*--------------------seventh part styles-----------------------*/
+
+.factsFormatMajor {
+    background-color: #383838;
+}
+
+.factsFormatMajor h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 50px 0 10px 0;
+}
+
+.factsFormatMajor p {
+    font-size: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.factsFormat {
+    display: inline-block;
+    width: 100px;
+}
+
+.factsButton {
+    margin: auto;
+    display: inline-block;
+    background-color: #00a99d;
+    color: white;
+    padding: 20px 0 20px 150px;
+    text-align: left;
+}
+
+.factsButton {
+    margin: 0 200px 0 0;
+}
+
+.factsButtonMajor {
+    display: flow-root;
+    background: #00a99d;
+}
+
+
+/*---------------------eigth part styles-----------------------*/
+
+.membersFormat h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 50px 0 10px;
+    color: #383838;
+}
+
+.membersFormat p {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+/*--------------------ninth part styles----------------------*/
+
+.quotesFormat {
+    background-color: #00a99d;
+    padding: 60px 0 60px 0;
+}
+
+
+/*--------------------tenth part styles------------------------*/
+
+.pricesFormatMajor {
+    text-align: center;
+}
+
+.pricesFormat {
+    display: inline-block;
+    width: 200px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
+.headPrices h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 40px 0 10px;
+    color: #383838;
+}
+
+.headPrices p {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*------------------eleventh part styles------------------------*/
+
+.formFormat form {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    left: 150px;
+}
+
+#uniqueFormat p {
+    text-align: center;
+    background-color: #8a8a8a;
+    color: #383838;
+    padding: 50px 0 50px 0;
+    font-weight: bold;
+}
+
+mapFormat {
+    display: flex;
+}
+
+
+/*------------------footer styles------------------------------*/
+
+footer {
+    text-align: center;
+}
